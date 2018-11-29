@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSUserDefaultVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSW-0q-Ee8">
+                    <rect key="frame" x="20" y="84" width="280" height="30"/>
+                    <color key="backgroundColor" red="0.21176470589999999" green="0.58039215690000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="yef-GR-dzB"/>
+                    </constraints>
+                    <state key="normal" title="NSUserDefault保存数组">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveArrAction:" destination="-1" eventType="touchUpInside" id="nFn-2T-3rZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWv-mT-2IG">
+                    <rect key="frame" x="20" y="134" width="280" height="30"/>
+                    <color key="backgroundColor" red="0.55294117649999996" green="0.80000000000000004" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="hZG-bO-I8w"/>
+                    </constraints>
+                    <state key="normal" title="NSUserDefault读取数组">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="readArrAction:" destination="-1" eventType="touchUpInside" id="6fd-qe-59P"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFq-o1-MKO">
+                    <rect key="frame" x="20" y="184" width="280" height="30"/>
+                    <color key="backgroundColor" red="0.30196078430000001" green="0.71372549019999998" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="lkj-Sq-auc"/>
+                    </constraints>
+                    <state key="normal" title="保存字典奔溃">
+                        <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="saveNilBreak:" destination="-1" eventType="touchUpInside" id="IQJ-Z6-nFv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L23-ge-sUt">
+                    <rect key="frame" x="20" y="234" width="280" height="30"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="qvE-vC-ybP"/>
+                    </constraints>
+                    <state key="normal" title="保存nil不崩溃">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveNilOk:" destination="-1" eventType="touchUpInside" id="t4r-f2-OZI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CL-Db-xcm">
+                    <rect key="frame" x="20" y="284" width="280" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5OX-rG-bro"/>
+                    </constraints>
+                    <state key="normal" title="读取保存的nil">
+                        <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readNil:" destination="-1" eventType="touchUpInside" id="2t2-em-7nl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEi-ej-fM0">
+                    <rect key="frame" x="20" y="334" width="280" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.46666666670000001" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5TC-DQ-v1B"/>
+                    </constraints>
+                    <state key="normal" title="项目中的运用">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="xmzdyy:" destination="-1" eventType="touchUpInside" id="Sh8-76-bGD"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZEi-ej-fM0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="1X0-1x-URi"/>
+                <constraint firstItem="ZEi-ej-fM0" firstAttribute="top" secondItem="1CL-Db-xcm" secondAttribute="bottom" constant="20" id="1d6-j7-EEU"/>
+                <constraint firstItem="SWv-mT-2IG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="6Kw-FH-kka"/>
+                <constraint firstItem="dFq-o1-MKO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="AtS-5A-ha5"/>
+                <constraint firstItem="1CL-Db-xcm" firstAttribute="top" secondItem="L23-ge-sUt" secondAttribute="bottom" constant="20" id="FIe-2X-2A2"/>
+                <constraint firstAttribute="trailing" secondItem="1CL-Db-xcm" secondAttribute="trailing" constant="20" id="Ghe-eo-GI2"/>
+                <constraint firstItem="vSW-0q-Ee8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="HTP-4s-YWg"/>
+                <constraint firstItem="1CL-Db-xcm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="HpY-Qx-YgQ"/>
+                <constraint firstItem="SWv-mT-2IG" firstAttribute="top" secondItem="vSW-0q-Ee8" secondAttribute="bottom" constant="20" id="QsA-wx-OEo"/>
+                <constraint firstItem="L23-ge-sUt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="S56-PY-Rcq"/>
+                <constraint firstAttribute="trailing" secondItem="SWv-mT-2IG" secondAttribute="trailing" constant="20" id="Z8n-tp-1Ki"/>
+                <constraint firstAttribute="trailing" secondItem="dFq-o1-MKO" secondAttribute="trailing" constant="20" id="bsB-RS-J4h"/>
+                <constraint firstItem="dFq-o1-MKO" firstAttribute="top" secondItem="SWv-mT-2IG" secondAttribute="bottom" constant="20" id="hbY-zG-ES9"/>
+                <constraint firstItem="vSW-0q-Ee8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="hdW-HL-Oeo"/>
+                <constraint firstAttribute="trailing" secondItem="L23-ge-sUt" secondAttribute="trailing" constant="20" id="op6-dO-0r8"/>
+                <constraint firstAttribute="trailing" secondItem="vSW-0q-Ee8" secondAttribute="trailing" constant="20" id="red-bf-u3d"/>
+                <constraint firstItem="L23-ge-sUt" firstAttribute="top" secondItem="dFq-o1-MKO" secondAttribute="bottom" constant="20" id="uLM-cH-z9o"/>
+                <constraint firstAttribute="trailing" secondItem="ZEi-ej-fM0" secondAttribute="trailing" constant="20" id="wMt-qV-YFM"/>
+            </constraints>
+            <point key="canvasLocation" x="-1284" y="-175"/>
+        </view>
+    </objects>
+</document>

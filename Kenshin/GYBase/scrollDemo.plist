@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0scrollDemo</key>
+	<string>one</string>
+	<key>1scrollDemo</key>
+	<string>two</string>
+	<key>2scrollDemo</key>
+	<string>three</string>
+	<key>3scrollDemo</key>
+	<string>four</string>
+	<key>4scrollDemo</key>
+	<string>five</string>
+	<key>5scrollDemo</key>
+	<string>six</string>
+	<key>6scrollDemo</key>
+	<string>seven</string>
+	<key>7scrollDemo</key>
+	<string>eight</string>
+	<key>8scrollDemo</key>
+	<string>nine</string>
+</dict>
+</plist>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSDateVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rk9-Bg-0XL">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFA-sz-GUV" userLabel="contentSizeView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LoV-ws-W9J">
+                                    <rect key="frame" x="30" y="240" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="Ckv-dY-qOu"/>
+                                    </constraints>
+                                    <state key="normal" title="NSDate-01">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="baseOne" destination="-1" eventType="touchUpInside" id="zLi-W4-ain"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNS-6b-tfP">
+                                    <rect key="frame" x="30" y="194" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="4Ov-iT-EqQ"/>
+                                    </constraints>
+                                    <state key="normal" title="获取最近七天的凌晨时间">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="getSevenDaysZeroTime:" destination="-1" eventType="touchUpInside" id="wic-LZ-zoI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddX-on-Jjr">
+                                    <rect key="frame" x="30" y="102" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="NqC-rv-NTk"/>
+                                    </constraints>
+                                    <state key="normal" title="获取前一天的当前时间">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="getYesterdayCuTime:" destination="-1" eventType="touchUpInside" id="Ikd-6W-Ecl"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjc-yC-dGw">
+                                    <rect key="frame" x="30" y="56" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="bjg-IJ-NSf"/>
+                                    </constraints>
+                                    <state key="normal" title="获取当天凌晨时间">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="getToDayZeroTime:" destination="-1" eventType="touchUpInside" id="0AT-Pk-DFF"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41s-A8-Hmh">
+                                    <rect key="frame" x="30" y="10" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="gfr-Wr-aHh"/>
+                                    </constraints>
+                                    <state key="normal" title="获取当前时间">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="getCuDate:" destination="-1" eventType="touchUpInside" id="k2A-we-TbA"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-ID-2w6">
+                                    <rect key="frame" x="30" y="148" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="Qba-Vt-24T"/>
+                                    </constraints>
+                                    <state key="normal" title="获取最近七天的时间">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="getSevenDaysTime" destination="-1" eventType="touchUpInside" id="E89-mm-7IP"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wok-bg-fjr">
+                                    <rect key="frame" x="30" y="286" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="4sL-fR-U58"/>
+                                    </constraints>
+                                    <state key="normal" title="NSDate转字符串">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="TimeFormatter:" destination="-1" eventType="touchUpInside" id="BzF-eL-47x"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yof-cV-KWi">
+                                    <rect key="frame" x="30" y="332" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091546379029750824" green="0.68872421979904175" blue="0.61648446321487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="hX3-Jy-Vsn"/>
+                                    </constraints>
+                                    <state key="normal" title="字符串转NSDate">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="stringToDate:" destination="-1" eventType="touchUpInside" id="cHp-o6-r39"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="yof-cV-KWi" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="88e-wY-Oqk"/>
+                                <constraint firstItem="ddX-on-Jjr" firstAttribute="top" secondItem="tjc-yC-dGw" secondAttribute="bottom" constant="10" id="8xO-lR-bRH"/>
+                                <constraint firstItem="41s-A8-Hmh" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="B43-wt-iew"/>
+                                <constraint firstAttribute="trailing" secondItem="ddX-on-Jjr" secondAttribute="trailing" constant="30" id="Bbo-K6-LkO"/>
+                                <constraint firstAttribute="trailing" secondItem="yof-cV-KWi" secondAttribute="trailing" constant="30" id="C2z-4e-JCD"/>
+                                <constraint firstItem="gNS-6b-tfP" firstAttribute="top" secondItem="HMQ-ID-2w6" secondAttribute="bottom" constant="10" id="DkR-z3-mat"/>
+                                <constraint firstItem="yof-cV-KWi" firstAttribute="top" secondItem="Wok-bg-fjr" secondAttribute="bottom" constant="10" id="I0F-CR-1ad"/>
+                                <constraint firstItem="HMQ-ID-2w6" firstAttribute="top" secondItem="ddX-on-Jjr" secondAttribute="bottom" constant="10" id="Mfl-ux-vwg"/>
+                                <constraint firstItem="Wok-bg-fjr" firstAttribute="top" secondItem="LoV-ws-W9J" secondAttribute="bottom" constant="10" id="Nd9-wA-ikx"/>
+                                <constraint firstItem="LoV-ws-W9J" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="RGB-d5-LAN"/>
+                                <constraint firstAttribute="trailing" secondItem="tjc-yC-dGw" secondAttribute="trailing" constant="30" id="SUE-dL-5vg"/>
+                                <constraint firstItem="LoV-ws-W9J" firstAttribute="top" secondItem="gNS-6b-tfP" secondAttribute="bottom" constant="10" id="UC2-dX-CP5"/>
+                                <constraint firstAttribute="height" constant="604" id="WZR-V7-1Df"/>
+                                <constraint firstAttribute="trailing" secondItem="LoV-ws-W9J" secondAttribute="trailing" constant="30" id="XPK-uT-AEY"/>
+                                <constraint firstItem="Wok-bg-fjr" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="Yfa-sV-udD"/>
+                                <constraint firstAttribute="trailing" secondItem="gNS-6b-tfP" secondAttribute="trailing" constant="30" id="bqn-Av-j7Z"/>
+                                <constraint firstItem="ddX-on-Jjr" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="cba-AU-zpZ"/>
+                                <constraint firstItem="tjc-yC-dGw" firstAttribute="top" secondItem="41s-A8-Hmh" secondAttribute="bottom" constant="10" id="h7z-2q-hrO"/>
+                                <constraint firstAttribute="trailing" secondItem="41s-A8-Hmh" secondAttribute="trailing" constant="30" id="nTZ-er-0kC"/>
+                                <constraint firstItem="tjc-yC-dGw" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="ooC-nc-YfE"/>
+                                <constraint firstAttribute="trailing" secondItem="Wok-bg-fjr" secondAttribute="trailing" constant="30" id="pUF-Oj-RzP"/>
+                                <constraint firstItem="gNS-6b-tfP" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="tk0-xs-DoQ"/>
+                                <constraint firstItem="HMQ-ID-2w6" firstAttribute="leading" secondItem="fFA-sz-GUV" secondAttribute="leading" constant="30" id="uZ3-my-ee7"/>
+                                <constraint firstAttribute="trailing" secondItem="HMQ-ID-2w6" secondAttribute="trailing" constant="30" id="vXU-Zw-z8d"/>
+                                <constraint firstItem="41s-A8-Hmh" firstAttribute="top" secondItem="fFA-sz-GUV" secondAttribute="top" constant="10" id="ySV-Xl-kVR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="fFA-sz-GUV" secondAttribute="trailing" id="3qu-8M-JkR"/>
+                        <constraint firstAttribute="bottom" secondItem="fFA-sz-GUV" secondAttribute="bottom" id="DH7-ez-ihC"/>
+                        <constraint firstItem="fFA-sz-GUV" firstAttribute="leading" secondItem="Rk9-Bg-0XL" secondAttribute="leading" id="aQB-D8-Fa5"/>
+                        <constraint firstItem="fFA-sz-GUV" firstAttribute="top" secondItem="Rk9-Bg-0XL" secondAttribute="top" id="g9Y-2H-4bs"/>
+                        <constraint firstItem="fFA-sz-GUV" firstAttribute="centerX" secondItem="Rk9-Bg-0XL" secondAttribute="centerX" id="x4e-yX-NQl"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Rk9-Bg-0XL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2WS-jF-Kwg"/>
+                <constraint firstAttribute="trailing" secondItem="Rk9-Bg-0XL" secondAttribute="trailing" id="U0q-97-wfa"/>
+                <constraint firstAttribute="bottom" secondItem="Rk9-Bg-0XL" secondAttribute="bottom" id="mJ9-8F-P98"/>
+                <constraint firstItem="Rk9-Bg-0XL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pSx-fz-Kdn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

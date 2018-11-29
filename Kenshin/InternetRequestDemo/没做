@@ -1,0 +1,9 @@
+demoCodes:
+
+http://www.cnblogs.com/kenshincui/p/4042190.html
+
+扩展--文件上传
+
+要实现文件上传，必须采用POST上传，同时请求类型必须是multipart/form-data。在Web开发中，开发人员不必过多的考虑mutiparty/form-data更多的细节，
+一般使用file控件即可完成文件上传。但是在iOS中如果要实现文件上传，就没有那么简单了，我们必须了解这种数据类型的请求是如何工作的。
+

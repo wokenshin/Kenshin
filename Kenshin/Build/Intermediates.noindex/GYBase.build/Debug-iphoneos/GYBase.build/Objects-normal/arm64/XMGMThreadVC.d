@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/XMGMThreadVC.m \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/XMGMThreadVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/BaseVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/Tools.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/AppDelegate.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKTypes.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKVersion.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/UIImage+ImageEffects.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/MBProgressHUD/MBProgressHUD.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/LiaoJieThreadVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/LiaoJiePThreadVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ZWNSThreadVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ThreadStatesVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ThreadMsgVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ThreadSafeVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/XMG_GCDVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/XMGNSOperationVC.h

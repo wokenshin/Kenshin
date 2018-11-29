@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomXIbView">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="227"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8Ra-6j-I3g">
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <segments>
+                        <segment title="梦想"/>
+                        <segment title="现实"/>
+                    </segments>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="segmentChangeImg:" destination="iN0-l3-epB" eventType="valueChanged" id="Ezj-ct-K3f"/>
+                    </connections>
+                </segmentedControl>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CDR-UE-238">
+                    <connections>
+                        <action selector="setImageAlpha:" destination="iN0-l3-epB" eventType="valueChanged" id="DmU-hW-TiS"/>
+                    </connections>
+                </slider>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBZ-n2-YXe">
+                    <connections>
+                        <action selector="leftSwitch:" destination="iN0-l3-epB" eventType="valueChanged" id="loA-hL-lgf"/>
+                    </connections>
+                </switch>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3c-Bx-ERl">
+                    <connections>
+                        <action selector="rightSwitch:" destination="iN0-l3-epB" eventType="valueChanged" id="JEs-ID-3tU"/>
+                    </connections>
+                </switch>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="charater_qingzi" translatesAutoresizingMaskIntoConstraints="NO" id="HhQ-TD-AfK">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="cuw-De-gee"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HhQ-TD-AfK" firstAttribute="leading" secondItem="bBZ-n2-YXe" secondAttribute="trailing" constant="20" id="39N-3q-cDK"/>
+                <constraint firstItem="bBZ-n2-YXe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="3HB-2W-Jjb"/>
+                <constraint firstAttribute="trailing" secondItem="CDR-UE-238" secondAttribute="trailing" constant="20" id="4zg-33-Ysk"/>
+                <constraint firstItem="CDR-UE-238" firstAttribute="top" secondItem="8Ra-6j-I3g" secondAttribute="bottom" constant="10" id="9pT-nd-T4u"/>
+                <constraint firstAttribute="trailing" secondItem="8Ra-6j-I3g" secondAttribute="trailing" id="BKT-cj-e7Z"/>
+                <constraint firstAttribute="trailing" secondItem="k3c-Bx-ERl" secondAttribute="trailing" constant="20" id="BpU-gO-BOp"/>
+                <constraint firstItem="k3c-Bx-ERl" firstAttribute="leading" secondItem="HhQ-TD-AfK" secondAttribute="trailing" constant="20" id="InO-MW-cvz"/>
+                <constraint firstItem="8Ra-6j-I3g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="OIK-uW-LHz"/>
+                <constraint firstItem="CDR-UE-238" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="S96-UH-Hqt"/>
+                <constraint firstItem="bBZ-n2-YXe" firstAttribute="top" secondItem="CDR-UE-238" secondAttribute="bottom" constant="10" id="cG1-HD-fTj"/>
+                <constraint firstItem="8Ra-6j-I3g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="k9Y-Nm-wAH"/>
+                <constraint firstItem="HhQ-TD-AfK" firstAttribute="top" secondItem="CDR-UE-238" secondAttribute="bottom" constant="10" id="rax-zV-FT3"/>
+                <constraint firstItem="k3c-Bx-ERl" firstAttribute="top" secondItem="CDR-UE-238" secondAttribute="bottom" constant="10" id="ubX-ah-1am"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="alphaImageSlider" destination="CDR-UE-238" id="ibH-99-BgZ"/>
+                <outlet property="img" destination="HhQ-TD-AfK" id="LfH-9D-r2G"/>
+                <outlet property="segment" destination="8Ra-6j-I3g" id="cYh-3x-L3p"/>
+                <outlet property="switchLeft" destination="bBZ-n2-YXe" id="uz9-GV-urS"/>
+                <outlet property="switchRight" destination="k3c-Bx-ERl" id="dfD-Dg-9BA"/>
+            </connections>
+            <point key="canvasLocation" x="-91" y="-31"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="charater_qingzi" width="216" height="190"/>
+    </resources>
+</document>

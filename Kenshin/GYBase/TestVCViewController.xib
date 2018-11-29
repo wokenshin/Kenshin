@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestVCViewController">
+            <connections>
+                <outlet property="imageView" destination="gNC-3X-mln" id="bna-tC-YoX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qingzi" translatesAutoresizingMaskIntoConstraints="NO" id="gNC-3X-mln">
+                    <rect key="frame" x="0.0" y="64" width="375" height="220"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="220" id="IBQ-yt-8TH"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5t-09-HhR">
+                    <rect key="frame" x="30" y="344" width="315" height="36"/>
+                    <color key="backgroundColor" red="0.093794293701648712" green="0.59816980361938477" blue="0.53804957866668701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="sSx-Mf-Bnk"/>
+                    </constraints>
+                    <state key="normal" title="切换ContentMode">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnChangeUIImageContentMode:" destination="-1" eventType="touchUpInside" id="Wbo-OE-IBV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tz-H3-ADD">
+                    <rect key="frame" x="30" y="390" width="315" height="36"/>
+                    <color key="backgroundColor" red="0.37601742148399353" green="0.6450769305229187" blue="0.092623598873615265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="dqk-E2-coJ"/>
+                    </constraints>
+                    <state key="normal" title="试试裁剪的效果吧">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnCutImg:" destination="-1" eventType="touchUpInside" id="aUc-Hw-4rZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOj-PS-ddo">
+                    <rect key="frame" x="30" y="436" width="315" height="36"/>
+                    <color key="backgroundColor" red="0.094500191509723663" green="0.40939712524414062" blue="0.55513900518417358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="oTn-k1-mr7"/>
+                    </constraints>
+                    <state key="normal" title="恢复">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnReset:" destination="-1" eventType="touchUpInside" id="baA-gS-KVl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="a5t-09-HhR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="1Y3-Ze-12i"/>
+                <constraint firstItem="FOj-PS-ddo" firstAttribute="top" secondItem="3Tz-H3-ADD" secondAttribute="bottom" constant="10" id="2Pz-dU-fLc"/>
+                <constraint firstItem="3Tz-H3-ADD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="2dy-Oe-JjW"/>
+                <constraint firstAttribute="trailing" secondItem="3Tz-H3-ADD" secondAttribute="trailing" constant="30" id="ADU-Gy-6wV"/>
+                <constraint firstItem="gNC-3X-mln" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WJI-Rs-Ifr"/>
+                <constraint firstItem="3Tz-H3-ADD" firstAttribute="top" secondItem="a5t-09-HhR" secondAttribute="bottom" constant="10" id="aWp-ba-V6a"/>
+                <constraint firstItem="gNC-3X-mln" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="alS-TF-BIi"/>
+                <constraint firstAttribute="trailing" secondItem="gNC-3X-mln" secondAttribute="trailing" id="g1l-Ke-gTt"/>
+                <constraint firstAttribute="trailing" secondItem="FOj-PS-ddo" secondAttribute="trailing" constant="30" id="gzy-OQ-9nn"/>
+                <constraint firstItem="a5t-09-HhR" firstAttribute="top" secondItem="gNC-3X-mln" secondAttribute="bottom" constant="60" id="hMW-Xj-FEO"/>
+                <constraint firstAttribute="trailing" secondItem="a5t-09-HhR" secondAttribute="trailing" constant="30" id="qhN-Ja-GTh"/>
+                <constraint firstItem="FOj-PS-ddo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="wKB-EW-CGa"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="191.5" y="234.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qingzi" width="640" height="640"/>
+    </resources>
+</document>

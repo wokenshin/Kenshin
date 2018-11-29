@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>樱木花道</string>
+		<string>水户洋平</string>
+		<string>赤木刚宪</string>
+		<string>流川枫</string>
+		<string>暮木公延</string>
+		<string>宫城良田</string>
+		<string>三井寿</string>
+	</array>
+	<array>
+		<string>孙悟空</string>
+		<string>孙悟饭</string>
+		<string>孙悟天</string>
+		<string>布玛</string>
+		<string>琪琪</string>
+		<string>克林</string>
+		<string>牙木茶</string>
+		<string>龟仙人</string>
+	</array>
+	<array>
+		<string>路飞</string>
+		<string>索洛</string>
+		<string>乌索普</string>
+		<string>香吉士</string>
+		<string>娜美</string>
+		<string>乔巴</string>
+		<string>罗宾</string>
+	</array>
+</array>
+</plist>

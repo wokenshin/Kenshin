@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XibVC">
+            <connections>
+                <outlet property="imgV" destination="1jc-do-KWS" id="7GV-qp-zVw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1jc-do-KWS">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="ICw-uo-wfj"/>
+                        <constraint firstAttribute="width" constant="100" id="cGB-gz-JJ1"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ICw-uo-wfj"/>
+                            <exclude reference="cGB-gz-JJ1"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="ICw-uo-wfj"/>
+                            <include reference="cGB-gz-JJ1"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.26274509800000001" green="0.69803921570000005" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="1jc-do-KWS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8Wk-e7-k3x"/>
+                <constraint firstItem="1jc-do-KWS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="WZ3-WI-iWg"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="1jc-do-KWS"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="8Wk-e7-k3x"/>
+                    <exclude reference="WZ3-WI-iWg"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="1jc-do-KWS"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="8Wk-e7-k3x"/>
+                    <include reference="WZ3-WI-iWg"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="336" y="276"/>
+        </view>
+    </objects>
+</document>

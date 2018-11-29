@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ContentsVC2.m \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ContentsVC2.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/Tools.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/AppDelegate.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKTypes.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKVersion.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/UIImage+ImageEffects.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/BlockButton.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/UIApplicationVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/SetHeaderVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/WebViewVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/MBProgressVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/UIButtonK.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/LifeVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/AudioVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/AutoConstantVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ContactsVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/WeiBoVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/DataVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/NSString+Trim.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/ContentsVC3.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/TableVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/SearchVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/MultiThreadVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/CollectionVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/扫描二维码/ScanVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/BaseVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/MBProgressHUD/MBProgressHUD.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/DesignModeVC.h

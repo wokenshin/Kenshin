@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SaveArrToShaHeVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLe-EU-egP">
+                    <rect key="frame" x="40" y="84" width="295" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.46666666670000001" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="APu-ab-Yuc"/>
+                    </constraints>
+                    <state key="normal" title="保存数组到沙盒">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveArrToShaHeAction:" destination="-1" eventType="touchUpInside" id="Ile-aC-iP3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDJ-K7-PyC">
+                    <rect key="frame" x="40" y="144" width="295" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.46666666670000001" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ohE-1F-3Tn"/>
+                    </constraints>
+                    <state key="normal" title="读取数组">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="readArrFromShaHeAction:" destination="-1" eventType="touchUpInside" id="pmF-ll-pEJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yDJ-K7-PyC" firstAttribute="top" secondItem="PLe-EU-egP" secondAttribute="bottom" constant="20" id="WA6-qw-joS"/>
+                <constraint firstItem="PLe-EU-egP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="ehT-R0-9Eu"/>
+                <constraint firstAttribute="trailing" secondItem="PLe-EU-egP" secondAttribute="trailing" constant="40" id="gJF-ml-q7j"/>
+                <constraint firstItem="yDJ-K7-PyC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="h8P-vE-c7G"/>
+                <constraint firstAttribute="trailing" secondItem="yDJ-K7-PyC" secondAttribute="trailing" constant="40" id="uTA-UO-SHN"/>
+                <constraint firstItem="PLe-EU-egP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="xy7-AP-JSn"/>
+            </constraints>
+            <point key="canvasLocation" x="-253.5" y="89.5"/>
+        </view>
+    </objects>
+</document>

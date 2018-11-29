@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DesignModeVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zI7-WZ-d2z">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBZ-ZB-f5L" userLabel="contentSizeView">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="604"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="604" id="5Ps-Se-MZQ"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q19-Tq-Ok4">
+                            <rect key="frame" x="30" y="20" width="314" height="36"/>
+                            <color key="backgroundColor" red="0.27168729901313782" green="0.5660555362701416" blue="0.090836979448795319" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="jZt-ke-5FW"/>
+                            </constraints>
+                            <state key="normal" title="单例模式">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnSingleObjModel:" destination="-1" eventType="touchUpInside" id="dyL-MG-Dqx"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Q19-Tq-Ok4" firstAttribute="top" secondItem="zI7-WZ-d2z" secondAttribute="top" constant="20" id="3Uc-Rl-QKu"/>
+                        <constraint firstItem="wBZ-ZB-f5L" firstAttribute="centerX" secondItem="zI7-WZ-d2z" secondAttribute="centerX" id="FOE-rR-wus"/>
+                        <constraint firstAttribute="trailing" secondItem="Q19-Tq-Ok4" secondAttribute="trailing" constant="30" id="MgP-3F-Nrx"/>
+                        <constraint firstItem="wBZ-ZB-f5L" firstAttribute="leading" secondItem="zI7-WZ-d2z" secondAttribute="leading" id="Pt2-QL-8MY"/>
+                        <constraint firstItem="Q19-Tq-Ok4" firstAttribute="leading" secondItem="zI7-WZ-d2z" secondAttribute="leading" constant="30" id="ffg-YO-tMP"/>
+                        <constraint firstItem="wBZ-ZB-f5L" firstAttribute="top" secondItem="zI7-WZ-d2z" secondAttribute="top" id="h5a-gR-aKt"/>
+                        <constraint firstAttribute="trailing" secondItem="wBZ-ZB-f5L" secondAttribute="trailing" id="lsI-Tm-wMz"/>
+                        <constraint firstAttribute="bottom" secondItem="wBZ-ZB-f5L" secondAttribute="bottom" id="yt3-QJ-VHG"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zI7-WZ-d2z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GWI-uO-sfz"/>
+                <constraint firstAttribute="bottom" secondItem="zI7-WZ-d2z" secondAttribute="bottom" id="hYy-C8-mhc"/>
+                <constraint firstItem="zI7-WZ-d2z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="k0B-EB-lvX"/>
+                <constraint firstAttribute="trailing" secondItem="zI7-WZ-d2z" secondAttribute="trailing" id="qB8-Sl-rva"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="234" y="25"/>
+        </view>
+    </objects>
+</document>

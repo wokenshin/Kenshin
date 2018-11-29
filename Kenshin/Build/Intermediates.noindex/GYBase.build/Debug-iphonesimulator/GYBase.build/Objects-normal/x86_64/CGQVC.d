@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/CGQVC.m \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/CGQVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/BaseVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/Tools.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/AppDelegate.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKTypes.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/Location/BaiduMapAPI_Base.framework/Headers/BMKVersion.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/UIImage+ImageEffects.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/MBProgressHUD/MBProgressHUD.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/JiaSuJiVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/JuLiCGQVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/JiaSuJiTwo.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/JiaSuJiPull.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/TuoLuoPushVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/TuoLuoPullVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/RockVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/StepsVC.h \
+  /Users/kenshinvan/Desktop/GitHub/Kenshin/Kenshin/GYBase/StepsMoreVC.h

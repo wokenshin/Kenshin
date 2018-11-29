@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BlockBaseVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6An-Gp-rCP">
+                    <rect key="frame" x="20" y="84" width="335" height="40"/>
+                    <color key="backgroundColor" red="0.30196078430000001" green="0.71372549019999998" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="YEu-bB-6fg"/>
+                    </constraints>
+                    <state key="normal" title="无参数无返回值">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnBlockOne:" destination="-1" eventType="touchUpInside" id="MuT-ht-l65"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7s-w0-kOd">
+                    <rect key="frame" x="20" y="134" width="335" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.46666666670000001" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="NZQ-SV-X1e"/>
+                    </constraints>
+                    <state key="normal" title="有参数无返回值">
+                        <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnBlockTwo:" destination="-1" eventType="touchUpInside" id="awU-aJ-Eoo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXP-c8-JGe">
+                    <rect key="frame" x="20" y="184" width="335" height="40"/>
+                    <color key="backgroundColor" red="0.55294117649999996" green="0.80000000000000004" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ETH-gn-dMY"/>
+                    </constraints>
+                    <state key="normal" title="有参数有返回值">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnBlockThree:" destination="-1" eventType="touchUpInside" id="YP6-3t-HNe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKD-BX-u3c">
+                    <rect key="frame" x="20" y="234" width="335" height="40"/>
+                    <color key="backgroundColor" red="0.30196078430000001" green="0.71372549019999998" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="eQM-UI-sIQ"/>
+                    </constraints>
+                    <state key="normal" title="Block结合typedef使用">
+                        <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnBlockWithTypeOf:" destination="-1" eventType="touchUpInside" id="fRu-qY-NM0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="o7s-w0-kOd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="8JU-lA-vym"/>
+                <constraint firstAttribute="trailing" secondItem="dXP-c8-JGe" secondAttribute="trailing" constant="20" id="JyA-FZ-rtg"/>
+                <constraint firstItem="o7s-w0-kOd" firstAttribute="top" secondItem="6An-Gp-rCP" secondAttribute="bottom" constant="10" id="QgW-JB-1fY"/>
+                <constraint firstItem="dXP-c8-JGe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="UgA-NO-5M6"/>
+                <constraint firstItem="MKD-BX-u3c" firstAttribute="top" secondItem="dXP-c8-JGe" secondAttribute="bottom" constant="10" id="XT7-DH-V7g"/>
+                <constraint firstAttribute="trailing" secondItem="MKD-BX-u3c" secondAttribute="trailing" constant="20" id="gHn-uV-qp1"/>
+                <constraint firstAttribute="trailing" secondItem="o7s-w0-kOd" secondAttribute="trailing" constant="20" id="oHF-Og-FRp"/>
+                <constraint firstItem="6An-Gp-rCP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="oTt-0s-EYe"/>
+                <constraint firstItem="MKD-BX-u3c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="sU8-5N-EZs"/>
+                <constraint firstItem="6An-Gp-rCP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="uJ1-pj-BOp"/>
+                <constraint firstItem="dXP-c8-JGe" firstAttribute="top" secondItem="o7s-w0-kOd" secondAttribute="bottom" constant="10" id="utu-zQ-gtL"/>
+                <constraint firstAttribute="trailing" secondItem="6An-Gp-rCP" secondAttribute="trailing" constant="20" id="vIF-a3-K9Q"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

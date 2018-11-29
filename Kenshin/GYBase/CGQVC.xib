@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CGQVC">
+            <connections>
+                <outlet property="view" destination="6CX-bB-hDc" id="fNh-f4-Fsy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6CX-bB-hDc">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="osn-uZ-ZBd">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5VU-9Q-8vA" userLabel="contentSizeView">
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Yw-B3-zgu">
+                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="zKX-oo-LSM"/>
+                                    </constraints>
+                                    <state key="normal" title="距离传感器">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="juLiCGQ:" destination="-1" eventType="touchUpInside" id="LZG-Jg-XG5"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oO4-8L-ZS1">
+                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="MQI-D7-I6J"/>
+                                    </constraints>
+                                    <state key="normal" title="加速计-老API">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="jiasujiOldAPI:" destination="-1" eventType="touchUpInside" id="8hV-WK-ZQM"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzz-Rf-RVq">
+                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="fz1-rs-6eU"/>
+                                    </constraints>
+                                    <state key="normal" title="加速计-push方式">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="jiasujiReal:" destination="-1" eventType="touchUpInside" id="iZc-KG-h2y"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGz-oQ-zBn">
+                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="Mtr-Ai-Sqk"/>
+                                    </constraints>
+                                    <state key="normal" title="加速计-pull方式">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="jiaSuJiOnce:" destination="-1" eventType="touchUpInside" id="5Ks-1o-JcG"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Enj-Tv-WY4">
+                                    <color key="backgroundColor" red="0.094757050275802612" green="0.42077183723449707" blue="0.40040901303291321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="PzW-dx-0kv"/>
+                                    </constraints>
+                                    <state key="normal" title="陀螺仪-push方式">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tuoluoyi_push:" destination="-1" eventType="touchUpInside" id="mh7-Mp-nrE"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jss-Wb-qzt">
+                                    <color key="backgroundColor" red="0.22762328386306763" green="0.47642272710800171" blue="0.073385246098041534" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="sjJ-ha-bcu"/>
+                                    </constraints>
+                                    <state key="normal" title="陀螺仪-pull方式">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tuoluoyi_pull:" destination="-1" eventType="touchUpInside" id="1hO-dC-dHL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuf-8X-wu8">
+                                    <color key="backgroundColor" red="0.98562681674957275" green="0.22628802061080933" blue="0.028972089290618896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="qFY-vz-wfX"/>
+                                    </constraints>
+                                    <state key="normal" title="摇一摇（加速计）">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="rock:" destination="-1" eventType="touchUpInside" id="huB-lQ-gCt"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iK5-7A-VwR">
+                                    <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="ghl-cG-2cq"/>
+                                    </constraints>
+                                    <state key="normal" title="计步器（加速计）">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="steps:" destination="-1" eventType="touchUpInside" id="iK7-zm-trJ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLJ-bT-5wE">
+                                    <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="yKN-NM-xTv"/>
+                                    </constraints>
+                                    <state key="normal" title="计步器-获取更多">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tableData:" destination="-1" eventType="touchUpInside" id="hqq-ai-kxH"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7d-CG-RI7">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="R4y-eF-GPC"/>
+                                    </constraints>
+                                    <state key="normal" title="HealthKit 更牛逼">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="HealthKitBtn:" destination="-1" eventType="touchUpInside" id="3Ai-Dn-Yvy"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="Enj-Tv-WY4" firstAttribute="top" secondItem="JGz-oQ-zBn" secondAttribute="bottom" constant="10" id="0aF-wk-kSa"/>
+                                <constraint firstAttribute="height" constant="604" id="2rA-Df-GhQ"/>
+                                <constraint firstAttribute="trailing" secondItem="jss-Wb-qzt" secondAttribute="trailing" constant="30" id="4pr-aX-QgM"/>
+                                <constraint firstAttribute="trailing" secondItem="cuf-8X-wu8" secondAttribute="trailing" constant="30" id="4ug-e1-9qD"/>
+                                <constraint firstAttribute="trailing" secondItem="oO4-8L-ZS1" secondAttribute="trailing" constant="30" id="6ta-RZ-MdO"/>
+                                <constraint firstItem="cuf-8X-wu8" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="84p-p6-ePN"/>
+                                <constraint firstItem="5Yw-B3-zgu" firstAttribute="top" secondItem="5VU-9Q-8vA" secondAttribute="top" constant="20" id="A6R-XO-upX"/>
+                                <constraint firstItem="k7d-CG-RI7" firstAttribute="top" secondItem="GLJ-bT-5wE" secondAttribute="bottom" constant="10" id="Bcg-OD-MqH"/>
+                                <constraint firstAttribute="trailing" secondItem="iK5-7A-VwR" secondAttribute="trailing" constant="30" id="DbV-pm-DUp"/>
+                                <constraint firstAttribute="trailing" secondItem="wzz-Rf-RVq" secondAttribute="trailing" constant="30" id="FW4-lO-sSs"/>
+                                <constraint firstAttribute="trailing" secondItem="k7d-CG-RI7" secondAttribute="trailing" constant="30" id="FeR-FR-xSG"/>
+                                <constraint firstItem="JGz-oQ-zBn" firstAttribute="top" secondItem="wzz-Rf-RVq" secondAttribute="bottom" constant="10" id="JMz-us-pAO"/>
+                                <constraint firstItem="oO4-8L-ZS1" firstAttribute="top" secondItem="5Yw-B3-zgu" secondAttribute="bottom" constant="10" id="Lux-6b-U5S"/>
+                                <constraint firstItem="Enj-Tv-WY4" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="NnI-uj-iaI"/>
+                                <constraint firstItem="oO4-8L-ZS1" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="PIj-S5-2J6"/>
+                                <constraint firstItem="GLJ-bT-5wE" firstAttribute="top" secondItem="iK5-7A-VwR" secondAttribute="bottom" constant="10" id="PLP-dH-fvB"/>
+                                <constraint firstAttribute="trailing" secondItem="GLJ-bT-5wE" secondAttribute="trailing" constant="30" id="QVp-eC-RHj"/>
+                                <constraint firstItem="jss-Wb-qzt" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="T4E-6n-GV6"/>
+                                <constraint firstAttribute="trailing" secondItem="JGz-oQ-zBn" secondAttribute="trailing" constant="30" id="VJb-GO-ZTZ"/>
+                                <constraint firstAttribute="trailing" secondItem="5Yw-B3-zgu" secondAttribute="trailing" constant="30" id="VVv-OV-1Rp"/>
+                                <constraint firstItem="k7d-CG-RI7" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="Y0j-Md-7eO"/>
+                                <constraint firstItem="GLJ-bT-5wE" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="adm-k7-UrO"/>
+                                <constraint firstItem="wzz-Rf-RVq" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="bEX-JW-KDG"/>
+                                <constraint firstItem="iK5-7A-VwR" firstAttribute="top" secondItem="cuf-8X-wu8" secondAttribute="bottom" constant="10" id="dWZ-t6-m2V"/>
+                                <constraint firstItem="5Yw-B3-zgu" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="e1Y-qc-bfL"/>
+                                <constraint firstItem="wzz-Rf-RVq" firstAttribute="top" secondItem="oO4-8L-ZS1" secondAttribute="bottom" constant="10" id="gD2-W2-U4L"/>
+                                <constraint firstItem="iK5-7A-VwR" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="hIX-Ra-pIR"/>
+                                <constraint firstItem="JGz-oQ-zBn" firstAttribute="leading" secondItem="5VU-9Q-8vA" secondAttribute="leading" constant="30" id="irR-xT-qwm"/>
+                                <constraint firstItem="jss-Wb-qzt" firstAttribute="top" secondItem="Enj-Tv-WY4" secondAttribute="bottom" constant="10" id="q5M-ap-GAv"/>
+                                <constraint firstItem="cuf-8X-wu8" firstAttribute="top" secondItem="jss-Wb-qzt" secondAttribute="bottom" constant="10" id="snf-aL-mRx"/>
+                                <constraint firstAttribute="trailing" secondItem="Enj-Tv-WY4" secondAttribute="trailing" constant="30" id="u0n-nn-MPw"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="5VU-9Q-8vA" secondAttribute="bottom" id="ERD-cX-FUd"/>
+                        <constraint firstItem="5VU-9Q-8vA" firstAttribute="top" secondItem="osn-uZ-ZBd" secondAttribute="top" id="GmB-Ph-owP"/>
+                        <constraint firstItem="5VU-9Q-8vA" firstAttribute="centerX" secondItem="osn-uZ-ZBd" secondAttribute="centerX" id="I8N-cq-R4B"/>
+                        <constraint firstAttribute="trailing" secondItem="5VU-9Q-8vA" secondAttribute="trailing" id="cH3-7B-0SZ"/>
+                        <constraint firstItem="5VU-9Q-8vA" firstAttribute="leading" secondItem="osn-uZ-ZBd" secondAttribute="leading" id="ogl-gd-ipK"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="osn-uZ-ZBd" secondAttribute="trailing" id="Bb0-aI-uzU"/>
+                <constraint firstItem="osn-uZ-ZBd" firstAttribute="top" secondItem="6CX-bB-hDc" secondAttribute="top" id="PVQ-oT-e6l"/>
+                <constraint firstAttribute="bottom" secondItem="osn-uZ-ZBd" secondAttribute="bottom" id="pLm-Zt-Ipe"/>
+                <constraint firstItem="osn-uZ-ZBd" firstAttribute="leading" secondItem="6CX-bB-hDc" secondAttribute="leading" id="yxt-JQ-nz1"/>
+            </constraints>
+            <point key="canvasLocation" x="-93" y="-53"/>
+        </view>
+    </objects>
+</document>
